@@ -10,9 +10,10 @@ This AI-powered Task Management System allows users to efficiently manage tasks 
 
 * **Task Completion Tracking:** Monitor the completion status of each task.
 
-* **Downloadable Task List:** Allows users to download their assigned tasks as a CSV file for easy follow-up.
+* **Downloadable Task List:**
 
+  Allows users to download their assigned tasks as a CSV file for easy follow-up.
 * **Real-time Visualizations:** Visualize task distribution by priority and completion status.
 
 
-Application Link : https://taskmgmtapp.streamlit.app/
+> * Application Link : https://taskmgmtapp.streamlit.app/
