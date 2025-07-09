@@ -20,10 +20,12 @@ df = load_data()
 st.set_page_config(page_title="Task Management System", page_icon="🗂️", layout="centered")
 
 
-st.title("Task Management System")
+st.title(" 🗂️ Task Management System ")
 
 # Description
-st.markdown("""Efficiently assign and track tasks by employee and priority.""")  
+st.markdown("""
+This AI-powered Task Management System helps for assigning, viewing, prioritizing tasks and download them for easy follow-up.""") 
+st.write("")
 st.write("""Select your name below to view your assigned tasks.""")
 
 # ----------------------------
