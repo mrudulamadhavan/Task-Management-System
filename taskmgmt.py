@@ -88,7 +88,7 @@ st.markdown(f"### Download Your Assigned Tasks (Including Urgency)")
 # ----------------------------
 # Download Assigned Tasks
 # ----------------------------
-csv_data = user_tasks.to_csv(index=False)
+csv_data = filtered_tasks.to_csv(index=False)
 st.download_button(
     label="📥 Download My Tasks",
     data=csv,
