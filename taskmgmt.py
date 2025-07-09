@@ -23,7 +23,10 @@ st.set_page_config(page_title="Task Management System", page_icon="🗂️", lay
 st.title(" 🗂️ Task Management System ")
 
 # Description
-st.markdown("""Effortlessly manage your tasks: prioritize, track, and download—all in one click!""",unsafe_allow_html=True) 
+st.markdown(
+    "<h2 style='text-align: center; font-weight: bold;'>Effortlessly manage your tasks: prioritize, track, and download—all in one click!</h2>",
+    unsafe_allow_html=True
+)
 st.write("")
 st.write("""Select your name below to view your assigned tasks.""")
 
