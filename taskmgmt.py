@@ -23,10 +23,8 @@ st.set_page_config(page_title="Task Management System", page_icon="🗂️", lay
 st.title("Task Management System")
 
 # Description
-st.markdown("""
-Efficiently assign and track tasks by employee and priority.  
-Select your name below to view your top assigned tasks.
-""")
+st.markdown("""Efficiently assign and track tasks by employee and priority.""")  
+st.write("""Select your name below to view your assigned tasks.""")
 
 # ----------------------------
 # Clean up & Prepare Data
@@ -36,7 +34,7 @@ df['Priority'] = df['Priority'].apply(lambda x: x if x in priority_order else 'L
 df['Priority_Rank'] = df['Priority'].map({'High': 1, 'Medium': 2, 'Low': 3})
 
 # Randomly reassign tasks for demo (optional, or use actual data)
-team_members = df['Assigned_To'].unique().to_list()
+team_members = df['Assigned_To'].unique().tolist()
 
 
 # Shuffle and assign tasks
