@@ -72,7 +72,10 @@ st.subheader(f"Top 5 Tasks Assigned to {selected_employee}")
 st.dataframe(filtered_tasks[['Task_ID', 'Description', 'Deadline', 'Priority']])
 
 # **Urgency vs. Deadline Plot for the Selected User**
-st.markdown("### Urgency Status of Your Tasks")
+st.markdown(
+    "<h5 style='text-align: center; font-weight: bold;'> Task Urgency Status</h5>",
+    unsafe_allow_html=True
+)
 
 # Plot: Task Urgency vs Deadline
 plt.figure(figsize=(6, 4))
