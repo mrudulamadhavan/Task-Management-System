@@ -24,7 +24,7 @@ st.title(" 🗂️ Task Management System ")
 
 # Description
 st.markdown(
-    "<h3 style='text-align: left; font-weight: bold;'>Effortlessly manage your tasks: Prioritize, Track, and Download </h3>",
+    "<h4 style='text-align: left; font-weight: bold;'>Effortlessly manage your tasks: Prioritize, Track, and Download </h4>",
     unsafe_allow_html=True)
 st.markdown(
     "<h5 style='text-align: center; font-weight: bold;'>All in one click! 👍</h5>",
