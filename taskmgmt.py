@@ -44,6 +44,14 @@ priority_order = ['High', 'Medium', 'Low']
 df['Priority'] = df['Priority'].apply(lambda x: x if x in priority_order else 'Low')
 df['Priority_Rank'] = df['Priority'].map({'High': 1, 'Medium': 2, 'Low': 3})
 
+# Convert Deadline to datetime
+df['Deadline'] = pd.to_datetime(df['Deadline'])
+
+# Add Days_Left column: the number of days remaining until the deadline
+df['Days_Left'] = (df['Deadline'] - pd.Timestamp.today()).dt.days
+# Binary: Urgent if Days_Left < 5
+df['Urgent'] = df['Days_Left'] < 5
+
 # Randomly reassign tasks for demo (optional, or use actual data)
 team_members = df['Assigned_To'].unique().tolist()
 
