@@ -24,9 +24,10 @@ st.title(" 🗂️ Task Management System ")
 
 # Description
 st.markdown(
-    "<h4 style='text-align: left; font-weight: bold;'>Effortlessly manage your tasks: prioritize, track, and download — all in one click! 👍 </h4>",
+    "<h4 style='text-align: left; font-weight: bold;'>Effortlessly manage your tasks: Prioritize, Track, and Download </h4>",
     unsafe_allow_html=True
 )
+st.markdown("<b>All in one click! 👍</b>") 
 st.write("")
 st.write("""Select your name below to view your assigned tasks.""")
 
