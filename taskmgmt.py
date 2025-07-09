@@ -23,8 +23,7 @@ st.set_page_config(page_title="Task Management System", page_icon="🗂️", lay
 st.title(" 🗂️ Task Management System ")
 
 # Description
-st.markdown("""
-This AI-powered Task Management System helps for assigning, viewing, prioritizing tasks and download them for easy follow-up.""") 
+st.markdown("""This AI-powered Task Management System helps for assigning, viewing, prioritizing tasks and download them for easy follow-up.""",layout="centered") 
 st.write("")
 st.write("""Select your name below to view your assigned tasks.""")
 
@@ -54,7 +53,7 @@ for priority in priority_order:
 # ----------------------------
 # User Selection and Display
 # ----------------------------
-selected_employee = st.selectbox("Select Your Name", sorted(df_assignment['Assigned_To'].unique()))
+selected_employee = st.selectbox("Employee Name", sorted(df_assignment['Assigned_To'].unique()))
 
 # Filter and display tasks
 filtered_tasks = df_assignment[df_assignment['Assigned_To'] == selected_employee]
