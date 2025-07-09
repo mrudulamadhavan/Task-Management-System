@@ -1,7 +1,8 @@
 import streamlit as st
 import pandas as pd
 import random
-import matplotlib as plt
+import matplotlib.pyplot as plt
+
 
 # ----------------------------
 # Load Data
