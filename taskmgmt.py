@@ -89,7 +89,6 @@ st.markdown(
 # Plot: Task Urgency vs Deadline
 plt.figure(figsize=(6, 4))
 sns.countplot(x='Urgent', data=filtered_tasks, palette='coolwarm', hue='Urgent')
-plt.title(f"Urgency Status of Tasks for {selected_user}")
 plt.xlabel("Urgency (Urgent vs Not Urgent)")
 plt.ylabel("Number of Tasks")
 st.pyplot(plt)
