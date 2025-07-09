@@ -1,0 +1,201 @@
+Task_ID,Description,Deadline,Assigned_To,Priority,Completed
+1,Integrate payment gateway,2025-07-15,Aanya,High,No
+2,Integrate payment gateway,2025-07-15,Raj,Medium,Yes
+3,Design admin dashboard UI,2025-07-17,Ira,High,Yes
+4,Implement caching for API,2025-07-16,Vikas,Medium,No
+5,Add multi-language support,2025-07-08,Shreya,Medium,Yes
+6,Handle API rate limits,2025-06-28,Vikas,Low,No
+7,Fix timezone issues,2025-06-28,Sneha,High,No
+8,Add multi-language support,2025-07-11,Myra,Medium,No
+9,Write backend logs to file,2025-07-11,Aanya,Low,No
+10,Handle API rate limits,2025-07-15,Ananya,Medium,No
+11,Fix timezone issues,2025-07-07,Lakshmi,Medium,Yes
+12,Write backend logs to file,2025-07-06,Ira,Medium,No
+13,Add multi-language support,2025-07-13,Vivaan,Medium,Yes
+14,Write deployment script,2025-07-14,Pavan,Low,No
+15,Write deployment script,2025-07-12,Prisha,High,Yes
+16,Implement JWT authentication,2025-07-09,Kiran,High,No
+17,Add multi-language support,2025-07-05,Deepak,High,No
+18,Refactor user profile module,2025-07-04,Raj,Medium,Yes
+19,Fix login bug,2025-07-06,Priya,Low,No
+20,Handle API rate limits,2025-07-08,Swathi,High,No
+21,Add multi-language support,2025-07-16,Rohan,Medium,Yes
+22,Update API documentation,2025-07-11,Aarav,Medium,Yes
+23,Write deployment script,2025-07-07,Jaya,High,No
+24,Migrate database to PostgreSQL,2025-07-08,Nikhil,High,Yes
+25,Add pagination to reports,2025-07-06,Pavan,High,No
+26,Implement caching for API,2025-07-03,Pavan,Low,No
+27,Setup CI/CD pipeline,2025-06-30,Vikas,Low,Yes
+28,Add multi-language support,2025-07-02,Arjun,Medium,Yes
+29,Create automated tests,2025-07-01,Ananya,Low,No
+30,Create automated tests,2025-07-09,Priya,Medium,Yes
+31,Add multi-language support,2025-07-01,Sanjay,Medium,No
+32,Fix login bug,2025-07-08,Shreya,Low,No
+33,Migrate database to PostgreSQL,2025-07-03,Deepak,Medium,No
+34,Fix timezone issues,2025-07-10,Aadhya,Medium,No
+35,Integrate payment gateway,2025-07-09,Abhishek,High,No
+36,Integrate payment gateway,2025-07-06,Deepak,Medium,No
+37,Fix login bug,2025-06-29,Diya,Medium,No
+38,Update API documentation,2025-07-17,Tanya,Low,Yes
+39,Fix CSS issues on dashboard,2025-07-04,Raj,High,No
+40,Fix CSS issues on dashboard,2025-07-15,Shreya,Medium,No
+41,Add password strength validation,2025-06-28,Ishaan,Medium,No
+42,Fix timezone issues,2025-07-04,Lakshmi,High,No
+43,Update API documentation,2025-07-14,Vikas,Medium,Yes
+44,Create automated tests,2025-07-11,Shreya,Medium,No
+45,Fix timezone issues,2025-07-09,Deepak,Medium,No
+46,Migrate database to PostgreSQL,2025-07-03,Shreya,High,No
+47,Write deployment script,2025-07-02,Raj,Medium,Yes
+48,Fix timezone issues,2025-07-07,Aanya,High,No
+49,Update API documentation,2025-07-14,Sanjay,High,No
+50,Design admin dashboard UI,2025-07-14,Anjali,Medium,Yes
+51,Migrate database to PostgreSQL,2025-07-09,Saanvi,Medium,No
+52,Update API documentation,2025-07-05,Harsha,Low,No
+53,Add multi-language support,2025-07-14,Pavan,Medium,Yes
+54,Update API documentation,2025-07-08,Suresh,High,No
+55,Design admin dashboard UI,2025-07-03,Sneha,Low,No
+56,Implement caching for API,2025-07-12,Ira,Medium,No
+57,Update API documentation,2025-07-17,Jaya,Medium,No
+58,Refactor user profile module,2025-06-28,Vivaan,High,Yes
+59,Implement caching for API,2025-07-11,Sneha,Low,No
+60,Write backend logs to file,2025-07-14,Nikhil,Low,No
+61,Setup CI/CD pipeline,2025-07-15,Nikhil,Low,No
+62,Create automated tests,2025-07-14,Amit,High,No
+63,Fix CSS issues on dashboard,2025-06-29,Shaurya,High,No
+64,Setup CI/CD pipeline,2025-07-15,Harsha,Low,Yes
+65,Optimize image loading,2025-07-14,Bhavana,Medium,No
+66,Design admin dashboard UI,2025-07-14,Deepak,Medium,No
+67,Implement JWT authentication,2025-07-03,Ira,Low,No
+68,Write backend logs to file,2025-07-05,Anjali,Medium,No
+69,Implement forgot password flow,2025-07-16,Rohan,High,Yes
+70,Fix CSS issues on dashboard,2025-07-08,Rohan,Medium,Yes
+71,Add multi-language support,2025-07-13,Sneha,High,Yes
+72,Fix CSS issues on dashboard,2025-07-17,Harsha,High,Yes
+73,Add password strength validation,2025-07-03,Vikas,Medium,No
+74,Write deployment script,2025-07-02,Pooja,High,Yes
+75,Fix timezone issues,2025-06-28,Vihaan,High,No
+76,Add pagination to reports,2025-07-01,Ishaan,Low,No
+77,Implement JWT authentication,2025-07-15,Bhavana,Medium,Yes
+78,Fix timezone issues,2025-07-16,Pavan,Low,Yes
+79,Update API documentation,2025-06-30,Ritika,Medium,No
+80,Migrate database to PostgreSQL,2025-07-04,Kiran,Medium,No
+81,Migrate database to PostgreSQL,2025-07-02,Swathi,Low,Yes
+82,Implement forgot password flow,2025-07-11,Shaurya,High,No
+83,Design admin dashboard UI,2025-07-15,Raj,Medium,Yes
+84,Migrate database to PostgreSQL,2025-07-15,Avni,Medium,No
+85,Implement caching for API,2025-07-08,Jaya,Low,No
+86,Update API documentation,2025-06-28,Aadhya,Medium,No
+87,Fix timezone issues,2025-07-01,Jaya,Low,No
+88,Fix CSS issues on dashboard,2025-07-15,Rahul,Medium,Yes
+89,Write deployment script,2025-07-09,Myra,Medium,Yes
+90,Fix CSS issues on dashboard,2025-07-17,Meera,Medium,No
+91,Fix timezone issues,2025-07-04,Sneha,High,No
+92,Handle API rate limits,2025-07-15,Nikhil,Medium,No
+93,Fix timezone issues,2025-07-12,Myra,Medium,No
+94,Handle API rate limits,2025-06-30,Aanya,Low,No
+95,Fix login bug,2025-07-17,Swathi,Medium,No
+96,Handle API rate limits,2025-07-09,Sanjay,Low,Yes
+97,Implement JWT authentication,2025-07-07,Raj,High,No
+98,Implement caching for API,2025-07-10,Saanvi,Medium,No
+99,Fix timezone issues,2025-06-28,Anjali,Medium,No
+100,Setup CI/CD pipeline,2025-07-14,Sneha,Medium,No
+101,Add password strength validation,2025-07-15,Neha,High,Yes
+102,Add pagination to reports,2025-07-10,Priya,Low,No
+103,Fix login bug,2025-07-15,Meera,Low,No
+104,Write deployment script,2025-06-28,Tanya,Low,No
+105,Add pagination to reports,2025-07-16,Swathi,High,Yes
+106,Design admin dashboard UI,2025-07-17,Aarav,Medium,Yes
+107,Implement JWT authentication,2025-06-28,Prisha,High,Yes
+108,Implement JWT authentication,2025-07-09,Anjali,Low,Yes
+109,Add password strength validation,2025-06-30,Aadhya,Low,No
+110,Optimize image loading,2025-07-10,Suresh,Medium,No
+111,Create automated tests,2025-07-08,Avni,Medium,No
+112,Handle API rate limits,2025-07-11,Jaya,Low,No
+113,Update API documentation,2025-06-30,Saanvi,Low,No
+114,Create automated tests,2025-07-15,Ananya,Medium,No
+115,Migrate database to PostgreSQL,2025-06-30,Deepak,Medium,Yes
+116,Implement JWT authentication,2025-07-07,Vivaan,Low,No
+117,Write backend logs to file,2025-07-14,Ira,Medium,Yes
+118,Write backend logs to file,2025-07-03,Raj,Medium,No
+119,Add multi-language support,2025-07-13,Nikhil,Low,Yes
+120,Fix timezone issues,2025-07-17,Krishna,Low,No
+121,Fix login bug,2025-07-04,Amit,Low,No
+122,Setup CI/CD pipeline,2025-07-15,Aadhya,Low,No
+123,Implement caching for API,2025-06-28,Ishaan,Medium,No
+124,Write deployment script,2025-07-09,Pavan,Low,No
+125,Fix login bug,2025-07-06,Bhavana,Medium,Yes
+126,Write deployment script,2025-07-06,Karthik,Medium,Yes
+127,Implement caching for API,2025-07-13,Sai,Medium,No
+128,Fix timezone issues,2025-07-02,Sanjay,High,Yes
+129,Fix timezone issues,2025-07-14,Naveen,Medium,No
+130,Design admin dashboard UI,2025-07-08,Aanya,High,No
+131,Design admin dashboard UI,2025-07-01,Aarav,Medium,Yes
+132,Handle API rate limits,2025-07-07,Jaya,High,No
+133,Design admin dashboard UI,2025-07-10,Nikhil,High,No
+134,Design admin dashboard UI,2025-07-10,Harsha,Medium,Yes
+135,Add pagination to reports,2025-07-07,Nikhil,Medium,No
+136,Refactor user profile module,2025-07-10,Avni,High,No
+137,Integrate payment gateway,2025-07-07,Deepak,Medium,Yes
+138,Fix login bug,2025-07-09,Anjali,High,Yes
+139,Write deployment script,2025-07-06,Anjali,High,No
+140,Refactor user profile module,2025-07-02,Saanvi,Medium,No
+141,Fix timezone issues,2025-07-05,Harsha,Medium,No
+142,Migrate database to PostgreSQL,2025-07-10,Suresh,Medium,No
+143,Refactor user profile module,2025-07-16,Arjun,Medium,No
+144,Fix login bug,2025-07-09,Meera,Medium,No
+145,Fix login bug,2025-07-12,Divya,High,No
+146,Implement forgot password flow,2025-07-12,Aditya,Medium,Yes
+147,Implement JWT authentication,2025-07-08,Harsha,Low,No
+148,Fix timezone issues,2025-06-29,Ritika,Medium,No
+149,Refactor user profile module,2025-07-15,Rahul,Medium,No
+150,Design admin dashboard UI,2025-07-12,Prisha,Medium,Yes
+151,Update API documentation,2025-07-07,Shreya,Medium,No
+152,Add password strength validation,2025-07-12,Prisha,High,No
+153,Handle API rate limits,2025-07-14,Lakshmi,Medium,No
+154,Add multi-language support,2025-07-08,Arjun,Medium,No
+155,Write backend logs to file,2025-07-06,Aadhya,Medium,No
+156,Add pagination to reports,2025-07-10,Krishna,High,Yes
+157,Handle API rate limits,2025-07-07,Ananya,High,No
+158,Fix login bug,2025-06-29,Swathi,Low,No
+159,Fix login bug,2025-06-28,Gaurav,High,No
+160,Write backend logs to file,2025-07-16,Vihaan,Medium,No
+161,Setup CI/CD pipeline,2025-07-14,Pavan,Medium,No
+162,Add pagination to reports,2025-07-04,Rahul,Low,No
+163,Optimize image loading,2025-07-12,Vikram,High,No
+164,Write backend logs to file,2025-07-08,Ishaan,High,No
+165,Create automated tests,2025-07-15,Swathi,Medium,No
+166,Add password strength validation,2025-07-08,Priya,Medium,No
+167,Handle API rate limits,2025-06-28,Atharv,High,No
+168,Fix CSS issues on dashboard,2025-07-12,Bhavana,High,No
+169,Implement forgot password flow,2025-07-04,Arjun,Low,Yes
+170,Design admin dashboard UI,2025-07-17,Gaurav,Medium,No
+171,Add pagination to reports,2025-06-28,Prisha,Medium,Yes
+172,Update API documentation,2025-07-17,Lakshmi,Medium,No
+173,Design admin dashboard UI,2025-07-05,Ishaan,Medium,Yes
+174,Add password strength validation,2025-07-10,Rohan,High,Yes
+175,Fix timezone issues,2025-07-06,Jaya,Low,Yes
+176,Write deployment script,2025-07-05,Jaya,High,No
+177,Add password strength validation,2025-07-17,Swathi,Medium,No
+178,Handle API rate limits,2025-06-29,Amit,Low,Yes
+179,Refactor user profile module,2025-06-28,Tanya,Medium,No
+180,Optimize image loading,2025-07-17,Lakshmi,High,No
+181,Implement JWT authentication,2025-07-11,Diya,High,Yes
+182,Add multi-language support,2025-07-05,Krishna,Medium,Yes
+183,Implement caching for API,2025-07-05,Gaurav,High,No
+184,Implement JWT authentication,2025-07-09,Vihaan,Medium,Yes
+185,Write backend logs to file,2025-07-06,Karthik,Low,No
+186,Write backend logs to file,2025-07-02,Atharv,Low,No
+187,Optimize image loading,2025-07-05,Sneha,Medium,Yes
+188,Add multi-language support,2025-07-01,Sanjay,Medium,Yes
+189,Handle API rate limits,2025-07-04,Vihaan,Medium,No
+190,Update API documentation,2025-07-13,Prisha,Medium,Yes
+191,Add multi-language support,2025-07-02,Atharv,High,Yes
+192,Setup CI/CD pipeline,2025-07-02,Krishna,Medium,No
+193,Add pagination to reports,2025-07-07,Priya,Low,No
+194,Integrate payment gateway,2025-07-02,Vihaan,Medium,No
+195,Handle API rate limits,2025-07-11,Prisha,Low,No
+196,Create automated tests,2025-07-01,Aarav,High,Yes
+197,Fix login bug,2025-07-13,Aditya,Medium,No
+198,Implement JWT authentication,2025-07-02,Saanvi,Low,No
+199,Implement forgot password flow,2025-07-05,Shaurya,Medium,Yes
+200,Create automated tests,2025-07-16,Ananya,Medium,No
