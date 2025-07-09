@@ -23,8 +23,7 @@ st.set_page_config(page_title="Task Management System", page_icon="🗂️", lay
 st.title(" 🗂️ Task Management System ")
 
 # Description
-st.markdown("""This AI-powered Task Management System helps for assigning, viewing, prioritizing tasks 
-        and download them for easy follow-up.""",unsafe_allow_html=True) 
+st.markdown("""Effortlessly manage your tasks: prioritize, track, and download—all in one click!""",unsafe_allow_html=True) 
 st.write("")
 st.write("""Select your name below to view your assigned tasks.""")
 
