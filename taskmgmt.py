@@ -19,8 +19,7 @@ df = load_data()
 # Set page title and logo
 st.set_page_config(page_title="Task Management System", page_icon="🗂️", layout="centered")
 
-# Logo and title
-st.image("logo.png", width=120)  # Replace with your logo path (same folder)
+
 st.title("Task Management System")
 
 # Description
