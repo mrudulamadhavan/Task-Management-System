@@ -69,10 +69,25 @@ filtered_tasks = filtered_tasks.sort_values(by='Priority_Rank').head(5).reset_in
 st.subheader(f"Top 5 Tasks Assigned to {selected_employee}")
 st.dataframe(filtered_tasks[['Task_ID', 'Description', 'Deadline', 'Priority']])
 
+# **Urgency vs. Deadline Plot for the Selected User**
+st.markdown("### Urgency Status of Your Tasks")
+
+# Plot: Task Urgency vs Deadline
+plt.figure(figsize=(6, 4))
+sns.countplot(x='Urgent', data=filtered_tasks, palette='coolwarm', hue='Urgent')
+plt.title(f"Urgency Status of Tasks for {selected_user}")
+plt.xlabel("Urgency (Urgent vs Not Urgent)")
+plt.ylabel("Number of Tasks")
+st.pyplot(plt)
+
+# Downloadable CSV of Assigned Tasks for the Selected User
+st.markdown(f"### Download Your Assigned Tasks (Including Urgency)")
+
+
 # ----------------------------
 # Download Assigned Tasks
 # ----------------------------
-csv = filtered_tasks.to_csv(index=False)
+csv_data = user_tasks.to_csv(index=False)
 st.download_button(
     label="📥 Download My Tasks",
     data=csv,
