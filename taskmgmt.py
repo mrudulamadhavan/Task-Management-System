@@ -20,7 +20,7 @@ df = load_data()
 st.set_page_config(page_title="Task Management System", page_icon="🗂️", layout="centered")
 
 
-st.title(" 🗂️ Task Management System ")
+st.title(" 🗂️   Task Management System   🗂️")
 
 # Description
 st.markdown(
@@ -32,7 +32,7 @@ st.markdown(
 )
 
 st.write("")
-st.write("""To view assigned tasks,Select your name below :""")
+st.write("""To view assigned tasks, select your name below :""")
 
 # ----------------------------
 # Clean up & Prepare Data
